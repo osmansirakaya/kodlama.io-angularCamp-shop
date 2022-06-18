@@ -1,0 +1,39 @@
+<h3>Yeni Ürün Ekle - Klasik </h3>
+<form #productAddFrom="ngForm" (ngSubmit)="add(productAddFrom)">
+    <div class="form-group mb-1">
+        <input type="text" placeholder="Ürün adı" #name="ngModel" [(ngModel)]="model.name" class="form-control"
+            name="name" id="name" required="" />
+        <div *ngIf="name.invalid && name.dirty" class="alert alert-danger">
+            Ürün ismi gereklidir
+        </div>
+    </div>
+    <div class="form-group mb-1">
+        <input type="text" placeholder="Açıklama" #description="ngModel" [(ngModel)]="model.description"
+            class="form-control" name="description" id="description" required="" />
+        <div *ngIf="description.invalid && description.dirty" class="alert alert-danger">
+            Açıklama ismi gereklidir
+        </div>
+    </div>
+    <div class="form-group mb-1">
+        <input type="text" placeholder="Ürün resmi" #imageUrl="ngModel" [(ngModel)]="model.imageUrl"
+            class="form-control" name="imageUrl" id="imageUrl" required="" />
+        <div *ngIf="imageUrl.invalid && imageUrl.dirty" class="alert alert-danger">
+            Fotoğraf gereklidir
+        </div>
+    </div>
+    <div class="form-group mb-1">
+        <input type="text" placeholder="Ürün fiyat" #price="ngModel" [(ngModel)]="model.price" class="form-control"
+            name="price" id="price" required="" />
+        <div *ngIf="price.invalid && price.dirty" class="alert alert-danger">
+        </div>
+    </div>
+        <div class="form-group mb-1">
+            <select class="form-select mb-1" #categoryId="ngModel" [(ngModel)]="model.categoryId" required
+                id="categoryId" name="categoryId">
+                <option *ngFor="let category of categories" [value]="category.id">{{category.name}}</option>
+            </select>
+            <div *ngIf="categoryId.invalid && categoryId.touched" class="alert alert-danger">
+                Kategori gereklidir
+            </div>
+        </div><br>
+        <button type="submit" class="btn btn-primary" [disabled]="productAddFrom.invalid">Ürün Ekle</button>

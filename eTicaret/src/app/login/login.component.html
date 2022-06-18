@@ -1,0 +1,25 @@
+<body class="text-center">
+  <main class="form-signin w-100 m-auto">
+    <form #loginFrom="ngForm" (ngSubmit)="login(loginFrom)">
+      <img class="mb-4"
+        src="https://static.wixstatic.com/media/035244_fd9047684abb4f6ab91b89a9a967a80a~mv2.png/v1/fill/w_280,h_280,al_c,lg_1,q_85,enc_auto/035244_fd9047684abb4f6ab91b89a9a967a80a~mv2.png"
+        alt="" width="75" height="75">
+      <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+      <div class="form-floating mb-1">
+        <input type="text" id="userName" name="userName" #userName="ngModel" [(ngModel)]="model.userName"
+          class="form-control" placeholder="User name">
+        <label for="floatingInput">User name</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" name="userName" name="password" #password="ngModel" [(ngModel)]="model.password"
+          class="form-control" id="password" placeholder="Password">
+        <label for="floatingPassword">Password</label>
+      </div>
+
+      <div class="checkbox mb-3">
+      </div>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+      <p class="mt-4 text-muted">&copy; 2019–2022</p>
+    </form>
+  </main>
