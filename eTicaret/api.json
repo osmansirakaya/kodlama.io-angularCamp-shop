@@ -1,0 +1,150 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Mouse",
+      "price": 2500,
+      "categoryId": 1,
+      "description": "HP",
+      "imageUrl": "https://cdn.cimri.io/image/1000x1000/xiaomihlkglkablosuzmouse_519704994.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Kulaklık",
+      "price": 2500,
+      "categoryId": 1,
+      "description": "Casper",
+      "imageUrl": "https://www.teknostore.com/media/catalog/product/cache/54c0e090526a59b425d13a8051bda18e/m/o/more_spearhead_vr_gaming_h1007_oyuncu_kulakligi-4.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Klavye",
+      "price": 2500,
+      "categoryId": 1,
+      "description": "Xiaomi",
+      "imageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/inca/thumb/11-59932_large.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 2500,
+      "categoryId": 2,
+      "description": "apple",
+      "imageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/114746_large.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Laptop",
+      "price": 2500,
+      "categoryId": 2,
+      "description": "apple",
+      "imageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/114746_large.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Laptop",
+      "price": 2500,
+      "categoryId": 2,
+      "description": "apple",
+      "imageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/114746_large.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Cep Telefonu",
+      "price": 2350,
+      "categoryId": 3,
+      "description": "vıvo",
+      "imageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/vivo/thumb/go-k-1_large.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Cep Telefonu",
+      "price": 2350,
+      "categoryId": 3,
+      "description": "vıvo",
+      "imageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/vivo/thumb/go-k-1_large.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Cep Telefonu",
+      "price": 2350,
+      "categoryId": 3,
+      "description": "vıvo",
+      "imageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/vivo/thumb/go-k-1_large.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Oyun Konsolu",
+      "price": 2350,
+      "categoryId": 4,
+      "description": "xbox",
+      "imageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/microsoft/thumb/109337-anagorsel_large.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Oyun Konsolu",
+      "price": 2350,
+      "categoryId": 4,
+      "description": "xbox",
+      "imageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/microsoft/thumb/109337-anagorsel_large.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Oyun Konsolu",
+      "price": 2350,
+      "categoryId": 4,
+      "description": "xbox",
+      "imageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/microsoft/thumb/109337-anagorsel_large.jpg"
+    },
+    {
+      "name": "Telefon",
+      "description": "IPhone 8 telefon",
+      "price": "5000",
+      "categoryId": "3",
+      "imageUrl": "https://cdn.cimri.io/image/1000x1000/apple-iphone-8-64gb-gumus-outlet-teshir_484680489.jpg",
+      "id": 4
+    },
+    {
+      "name": "Telefon",
+      "description": "IPhone 8 telefon",
+      "imageUrl": "https://cdn.cimri.io/image/1000x1000/apple-iphone-8-64gb-gumus-outlet-teshir_484680489.jpg",
+      "price": "5000",
+      "categoryId": "3",
+      "id": 5
+    },
+    {
+      "name": "Telefon",
+      "description": "IPhone 8 telefon",
+      "imageUrl": "https://cdn.cimri.io/image/1000x1000/apple-iphone-8-64gb-gumus-outlet-teshir_484680489.jpg",
+      "price": "5000",
+      "categoryId": "3",
+      "id": 6
+    },
+    {
+      "name": "Mouse",
+      "description": "HP",
+      "imageUrl": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/hp/thumb/TeoriV2-106220_large.jpg",
+      "price": "1500",
+      "categoryId": "1",
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Elektronik"
+    },
+    {
+      "id": 2,
+      "name": "Bilgisayar"
+    },
+    {
+      "id": 3,
+      "name": "Telefon"
+    },
+    {
+      "id": 4,
+      "name": "Oyun"
+    }
+  ]
+}
