@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div *ngFor="let user of users" class="col-2 card m-2" style="width: 300px">
+            <img class="card-img-top" src="{{ user.avatar_url }}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">UserName <strong>{{ user.login }}</strong></h5>
+              <a href="{{ user.html_url }}" class="btn btn-primary">GitHub Account</a>
+            </div>
+        </div>
+    </div>
+</div>
